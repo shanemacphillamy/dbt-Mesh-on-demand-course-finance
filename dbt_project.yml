@@ -1,4 +1,4 @@
-name: finance_dbt
+name: "finance_dbt"
 config-version: 2
 
 profile: snowflake
