@@ -1,7 +1,7 @@
 name: jaffle_finance
 config-version: 2
 
-profile: snowflake
+profile: default
 require-dbt-version: ">=1.6.0"
 
 model-paths:
@@ -25,3 +25,7 @@ models:
   finance_dbt:
     marts:
       +materialized: table
+
+  dbt_training_shanem:
+    marts:
+      +versioned: true  # Enables versioned models
