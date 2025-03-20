@@ -25,7 +25,3 @@ models:
   finance_dbt:
     marts:
       +materialized: table
-
-  dbt_training_shanem:
-    marts:
-      +versioned: true  # Enables versioned models
