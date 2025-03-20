@@ -1,5 +1,5 @@
 with orders as (
-    select * from {{ ref('dbt_training_shanem', 'fct_orders_v2')}}
+    select * from fct_orders
 ),
 
 agg as (
