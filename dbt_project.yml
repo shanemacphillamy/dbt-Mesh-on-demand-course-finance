@@ -22,6 +22,5 @@ clean-targets:
   - dbt_packages
 
 models:
-  finance_dbt:
-    marts:
-      +materialized: table
+  marts:
+    +materialized: table
