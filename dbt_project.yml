@@ -22,6 +22,6 @@ clean-targets:
   - dbt_packages
 
 models:
-  dbt-Mesh-on-dmand-course-finance:
+  jaffle_finance:
     marts:
       +materialized: table
