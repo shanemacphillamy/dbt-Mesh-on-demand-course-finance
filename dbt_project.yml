@@ -1,4 +1,4 @@
-name: jaffle_finance
+name: dbt-Mesh-on-dmand-course-finance
 config-version: 2
 
 profile: default
@@ -22,6 +22,5 @@ clean-targets:
   - dbt_packages
 
 models:
-  dbt-Mesh-on-dmand-course-finance:
-    marts:
-      +materialized: table
+  marts:
+    +materialized: table
